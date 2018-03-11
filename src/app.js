@@ -6,7 +6,7 @@ import {CanvasSpace, Create, Polygon} from "pts";
 
 
 // Initiate Space and Form
-var space = new CanvasSpace("#pts").setup({bgcolor: "#093", resize: true, retina: true});
+var space = new CanvasSpace("#pts").setup({bgcolor: "#09F", resize: true, retina: true});
 var form = space.getForm();
 
 let landmarks;
