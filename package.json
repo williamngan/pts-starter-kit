@@ -19,7 +19,7 @@
   },
   "homepage": "https://github.com/williamngan/pts-starter-kit#readme",
   "dependencies": {
-    "pts": "^0.3.3"
+    "pts": "^0.4.2"
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",
