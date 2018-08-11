@@ -1,5 +1,5 @@
 // A demo of convex hull using pts.js. We are using webpack to bundle this demo into "dist/bundle.js".
-// Source code licensed under Apache License 2.0. 
+// Source code licensed under Apache License 2.0.
 // Copyright © 2017 William Ngan. (https://github.com/williamngan/pts)
 
 import {CanvasSpace, Create, Polygon} from "pts";
@@ -11,14 +11,14 @@ var form = space.getForm();
 
 let landmarks;
 
-space.add({ 
-  
+space.add({
+
   start: (bound) => {
     // Make a face with 30 radial points with slight randomness
     let radius = space.size.minValue().value/3;
     landmarks = Create.radialPts( space.center, radius, 30  );
     landmarks.map( p => p.add( 50*(Math.random() - Math.random()) ) )
-    
+
   },
 
   animate: (time, ftime) => {
@@ -46,9 +46,9 @@ space.add({
 
     // draw mouth
     form.strokeOnly("#123", 5).line( [left.$add(0,80), right.$add(0, 80)]);
-    
+
   },
-  
+
 });
 
 
