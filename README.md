@@ -1,14 +1,23 @@
 # pts-starter-kit
 This is a sample app to help you get started with **[Pts](https://ptsjs.org)**
-using **yarn** (an npm wrapper)  and **webpack**.
+using **npm** or **yarn** (an npm wrapper) and **webpack**.
+
+If you prefer to use Pts without build steps, you can also link it directly. For example:    
+```html
+<script type="text/javascript" src="https://unpkg.com/pts/dist/pts.min.js"></script>
+```
+
+And you can also try out Pts without any setup using the [live demo editor](http://ptsjs.org/demo/edit/?name=pt.unit). 
 
 Pts is a library for visualizaton and creative coding. Learn more at
 [https://ptsjs.org](https://ptsjs.org).
 
 ![screenshot](./screenshot.png)
 
-## Getting yarn
-1. Run `npm i -g yarn` or [see here](https://yarnpkg.com/docs/install/) for more
+## Getting npm and yarn
+1. **npm** is a package manager for Node, and it comes with Node installation. 
+   If you don't have Node yet, [download it here](https://nodejs.org/).
+2. **yarn** is an alternative to npm. Run `npm i -g yarn` to install, or [see here](https://yarnpkg.com/docs/install/) for more
    installation options. Skip this step if you would rather just use npm.
 
 ## Running the sample app
