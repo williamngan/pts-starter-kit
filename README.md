@@ -7,7 +7,7 @@ If you prefer to use Pts without build steps, you can also link it directly. For
 <script type="text/javascript" src="https://unpkg.com/pts/dist/pts.min.js"></script>
 ```
 
-And you can also try out Pts without any setup using the [live demo editor](http://ptsjs.org/demo/edit/?name=pt.unit). 
+And you can also try out Pts without any setup using the [live demo editor](http://ptsjs.org/demo/edit/?name=polygon.convexHull). 
 
 Pts is a library for visualizaton and creative coding. Learn more at
 [https://ptsjs.org](https://ptsjs.org).
