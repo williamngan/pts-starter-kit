@@ -2384,8 +2384,8 @@ js-tokens@^3.0.2:
   resolved "https://registry.yarnpkg.com/js-tokens/-/js-tokens-3.0.2.tgz#9866df395102130e38f7f996bceb65443209c25b"
 
 js-yaml@^3.9.1:
-  version "3.12.0"
-  resolved "https://registry.yarnpkg.com/js-yaml/-/js-yaml-3.12.0.tgz#eaed656ec8344f10f527c6bfa1b6e2244de167d1"
+  version "3.13.1"
+  resolved "https://registry.yarnpkg.com/js-yaml/-/js-yaml-3.13.1.tgz#aff151b30bfdfa8e49e05da22e7415e9dfa37847"
   dependencies:
     argparse "^1.0.7"
     esprima "^4.0.0"
@@ -3092,9 +3092,9 @@ pseudomap@^1.0.2:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/pseudomap/-/pseudomap-1.0.2.tgz#f052a28da70e618917ef0a8ac34c1ae5a68286b3"
 
-pts@^0.5.0:
-  version "0.5.0"
-  resolved "https://registry.yarnpkg.com/pts/-/pts-0.5.0.tgz#07a2a8a09844c2a36d2785b65daa905e919410a4"
+pts@^0.9.0:
+  version "0.9.0"
+  resolved "https://registry.yarnpkg.com/pts/-/pts-0.9.0.tgz#fffbc13a3fc3690eb76a678288032abbd9620823"
 
 public-encrypt@^4.0.0:
   version "4.0.2"
