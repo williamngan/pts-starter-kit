@@ -1,0 +1,28 @@
+<html>
+  <head>
+    <style>
+      body { 
+        margin: 0;
+        font: 12px/1.5 sans-serif;
+      }
+      #container { 
+        position: absolute;
+        top: 0; left: 0; right: 0; bottom: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        overflow: scroll;
+      }
+      #pts { background-color: #f1f3f7; width: 600px; height: 600px;}
+      
+    </style>
+  </head>
+  <body>
+    <div id="container">
+      <div id="pts"></div>
+      <div><p><strong>A demo of Pts.js.</strong></p><p>Edit source code in <code>src/app.js</code> and this html file in <code>dist/index.html</code>.</p> <p>You can also use either typescript or javascript.</p></div>
+    </div>
+    <script src="./dist.js"></script>
+  </body>
+</html>
