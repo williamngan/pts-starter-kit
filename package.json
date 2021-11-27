@@ -1,12 +1,10 @@
 {
   "name": "pts-starter-kit",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "A starter kit to build pts.js with webpack",
-  "main": "index.js",
   "scripts": {
-    "start": "webpack --watch --config webpack.dev.js",
-    "build": "webpack --config webpack.prod.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "esbuild src/app.js --servedir=dist --outfile=dist/dist.js --bundle",
+    "build": "esbuild src/app.js --bundle --minify --outfile=dist/dist.min.js"
   },
   "repository": {
     "type": "git",
@@ -17,19 +15,11 @@
   "bugs": {
     "url": "https://github.com/williamngan/pts-starter-kit/issues"
   },
-  "homepage": "https://github.com/williamngan/pts-starter-kit#readme",
-  "dependencies": {
-    "pts": "^0.10.0"
-  },
+  "homepage": "https://ptsjs.orgg",
   "devDependencies": {
-    "babel-cli": "^6.26.0",
-    "babel-loader": "^7.1.4",
-    "babel-minify-webpack-plugin": "^0.3.0",
-    "babel-preset-env": "^1.6.1",
-    "eslint": "^4.18.2",
-    "eslint-import-resolver-webpack": "^0.8.4",
-    "eslint-loader": "^2.0.0",
-    "eslint-plugin-import": "^2.9.0",
-    "webpack": "^3.11.0"
+    "esbuild": "^0.14.0"
+  },
+  "dependencies": {
+    "pts": "^0.10.6"
   }
 }

@@ -17,8 +17,7 @@ space.add({
     // Make a face with 30 radial points with slight randomness
     let radius = space.size.minValue().value/3;
     landmarks = Create.radialPts( space.center, radius, 30  );
-    landmarks.map( p => p.add( 50*(Math.random() - Math.random()) ) )
-
+    landmarks.map( p => p.add( 50*(Math.random() - Math.random()) ) );
   },
 
   animate: (time, ftime) => {
@@ -31,8 +30,8 @@ space.add({
     // eyes' positions
     let left = space.center.$subtract( 50 );
     let right = space.center.$add( 50, -50 );
-    let leftB = left.clone().toAngle( space.pointer.$subtract( left ).angle(), 10, left );
-    let rightB = right.clone().toAngle( space.pointer.$subtract( right ).angle(), 10, right );
+    let leftB = left.clone().toAngle( space.pointer.$subtract( left ).angle(), 10, true );
+    let rightB = right.clone().toAngle( space.pointer.$subtract( right ).angle(), 10, true );
 
     // draw face and eyes
     form.fillOnly("rgba(255, 255, 255, 0.5)").polygon( hull );
