@@ -3,7 +3,7 @@
   "version": "0.2.0",
   "description": "A starter kit to build pts.js with webpack",
   "scripts": {
-    "start": "esbuild src/app.js --servedir=dist --outfile=dist/dist.js --bundle",
+    "start": "node esbuild.config.js",
     "build": "esbuild src/app.js --bundle --minify --outfile=dist/dist.min.js"
   },
   "repository": {
@@ -15,9 +15,10 @@
   "bugs": {
     "url": "https://github.com/williamngan/pts-starter-kit/issues"
   },
-  "homepage": "https://ptsjs.orgg",
+  "homepage": "https://ptsjs.org",
   "devDependencies": {
-    "esbuild": "^0.14.0"
+    "esbuild": "^0.14.0",
+    "live-server": "^1.2.2"
   },
   "dependencies": {
     "pts": "^0.10.6"
